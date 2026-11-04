@@ -1,0 +1,38 @@
+baseURL = 'https://joquast.de'
+locale = 'en-us'
+title = 'J. Quast'
+theme = 'archie'
+copyright = "© Johannes Quast"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="toggle"
+	useCDN=false
+	subtitle = "My personal brain dump."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/jatsqi"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/johannes-quast-2853ba235/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3

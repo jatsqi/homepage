@@ -1,0 +1,18 @@
+# Hugo Build-Ausgabe (wird von `hugo` generiert)
+public/
+resources/_gen/
+
+# Hugo Sperrdatei
+.hugo_build.lock
+
+# Hugo Cache
+.hugo_cache/
+
+# Editor- & System-Dateien
+.DS_Store
+Thumbs.db
+*.swp
+
+# Umgebungsdateien (API-Keys etc. für Deploy)
+.env
+.env.*
